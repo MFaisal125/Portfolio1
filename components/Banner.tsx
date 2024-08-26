@@ -31,7 +31,7 @@ const Banner = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
         I am Muhammad Abdullah, a seasoned professional with extensive experience in E-Commerce, Website Development, and Affiliate Marketing. With a keen eye for detail and a passion for creating impactful online solutions, I specialize in building user-friendly, high-converting websites that drive sales and maximize profitability.{" "}
-        <a href="https://www.noormohammad.live/" target="_blank">
+        <a href="https://www.linkedin.com/in/muhammad-abdullah2001/" target="_blank">
           {" "}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn more

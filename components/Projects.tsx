@@ -1,7 +1,7 @@
 import { hotelbook, aichatboot, ecommerce } from "@/public/assets";
 import Image from "next/image";
-import { AiOutlineYoutube } from "react-icons/ai";
-import { TbBrandGithub } from "react-icons/tb";
+import { SiUpwork } from "react-icons/si";
+import { SiFiverr } from "react-icons/si";
 import SectionTitle from "./SectionTitle";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
@@ -49,16 +49,17 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href=""
-               
+                href="https://www.upwork.com/freelancers/~01f36034d354d78835?mp_source=share"
+                target="_blank"
               >
-                <TbBrandGithub />
+                 <SiUpwork />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href=""
+                href="https://www.fiverr.com/mabdullah4567"
+                target="_blank"
               >
-                <AiOutlineYoutube />
+                <SiFiverr />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
@@ -112,17 +113,19 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href=""
+                 href="https://www.upwork.com/freelancers/~01f36034d354d78835?mp_source=share"
+                target="_blank"
                 
               >
-                <TbBrandGithub />
+                <SiUpwork/>
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href=""
+               href="https://www.fiverr.com/mabdullah4567"
+                target="_blank"
                
               >
-                <AiOutlineYoutube />
+                <SiFiverr/>
               </a>
               <a
                 className="hover:text-textGreen duration-300"
@@ -174,16 +177,18 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-              
+               href="https://www.upwork.com/freelancers/~01f36034d354d78835?mp_source=share"
+                target="_blank"
               >
-                <TbBrandGithub />
+                <SiUpwork />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href=""
+                href="https://www.fiverr.com/mabdullah4567"
+                target="_blank"
               
               >
-                <AiOutlineYoutube />
+                <SiFiverr />
               </a>
               <a
                 className="hover:text-textGreen duration-300"

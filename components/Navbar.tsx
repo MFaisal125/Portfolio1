@@ -3,12 +3,13 @@ import { logo } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { TbBrandGithub } from "react-icons/tb";
-import { SlSocialYoutube } from "react-icons/sl";
+import { SiUpwork } from "react-icons/si";
+import { SiFiverr } from "react-icons/si";
 import {
   SlSocialLinkedin,
   SlSocialFacebook,
   SlSocialInstagram,
+  
 } from "react-icons/sl";
 import { MdOutlineClose } from "react-icons/md";
 import { motion } from "framer-motion";
@@ -251,22 +252,22 @@ const Navbar = () => {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.8, ease: "easeIn" }}
-                    href=""
-                   
+                    href="https://www.upwork.com/freelancers/~01f36034d354d78835?mp_source=share"
+                   target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                      <TbBrandGithub />
+                    <SiUpwork />
                     </span>
                   </motion.a>
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.85, ease: "easeIn" }}
-                    href=""
-                    
+                    href="https://www.fiverr.com/mabdullah4567"
+                    target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                      <SlSocialYoutube />
+                    <SiFiverr />
                     </span>
                   </motion.a>
                   <motion.a
@@ -295,8 +296,8 @@ const Navbar = () => {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 1, ease: "easeIn" }}
-                    href=""
-                  
+                    href="https://www.instagram.com/mabdullah_25?igsh=MWdzdGE2ZGlmemNleQ=="
+                    target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <SlSocialInstagram />

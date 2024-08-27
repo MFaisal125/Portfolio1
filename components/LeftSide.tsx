@@ -1,5 +1,5 @@
-import { TbBrandGithub } from "react-icons/tb";
-import { SlSocialYoutube } from "react-icons/sl";
+import { SiUpwork } from "react-icons/si";
+import { SiFiverr } from "react-icons/si";
 import {
   SlSocialLinkedin,
   SlSocialFacebook,
@@ -10,17 +10,17 @@ const LeftSide = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-end gap-4 text-textLight">
       <div className="flex flex-col gap-4">
-        <a href="" target="">
+        <a href="https://www.upwork.com/freelancers/~01f36034d354d78835?mp_source=share" target="_blank">
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <TbBrandGithub />
+          <SiUpwork />
           </span>
         </a>
         <a
-          href=""
-          target=""
+          href="https://www.fiverr.com/mabdullah4567"
+          target="_blank"
         >
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <SlSocialYoutube />
+          <SiFiverr />
           </span>
         </a>
         <a
@@ -36,7 +36,7 @@ const LeftSide = () => {
             <SlSocialFacebook />
           </span>
         </a>
-        <a href="" target="">
+        <a href="https://www.instagram.com/mabdullah_25?igsh=MWdzdGE2ZGlmemNleQ==" target="_blank">
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <SlSocialInstagram />
           </span>
